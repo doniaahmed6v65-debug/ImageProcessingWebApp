@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>معالجة الصور</title>
+</head>
+<body>
+    <h2>رفع صورة ومعالجتها</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required><br><br>
+        <label>اختار نوع المعالجة:</label>
+        <select name="operation">
+            <option value="grayscale">Grayscale</option>
+            <option value="blur">Blur</option>
+            <option value="edge">Edge Detection</option>
+        </select><br><br>
+        <button type="submit">اعرض الصورة</button>
+    </form>
+</body>
+</html>

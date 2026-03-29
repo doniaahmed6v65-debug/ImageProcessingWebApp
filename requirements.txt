@@ -1,0 +1,4 @@
+app.py
+requirements.txt
+templates/index.html
+uploads/   ← فولدر فارغ لتخزين الصور
